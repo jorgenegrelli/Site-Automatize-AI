@@ -299,7 +299,7 @@ export default function SolutionsPage() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="gradient" size="xl" asChild className="shadow-glow-lg">
-                <Link href="https://wa.me/5541999999999?text=Quero%20um%20diagnóstico%20gratuito">
+                <Link href="https://wa.me/5541996534730?text=Quero%20um%20diagnóstico%20gratuito">
                   💬 Falar no WhatsApp
                 </Link>
               </Button>

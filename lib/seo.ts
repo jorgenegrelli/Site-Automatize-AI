@@ -90,7 +90,7 @@ export const jsonLd = {
   logo: `${baseUrl}/logo.png`,
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+55-41-99999-9999',
+    telephone: '+55-41-99653-4730',
     contactType: 'customer service',
     availableLanguage: 'Portuguese',
   },
@@ -105,7 +105,7 @@ export const jsonLd = {
   sameAs: [
     'https://www.linkedin.com/company/automatizeai',
     'https://www.instagram.com/automatizeai',
-    'https://wa.me/5541999999999',
+    'https://wa.me/5541996534730',
   ],
   description: 'RPA, chatbots e integrações que economizam horas por semana e aumentam sua taxa de conversão.',
   foundingDate: '2023',

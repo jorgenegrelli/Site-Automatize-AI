@@ -133,7 +133,7 @@ export default function NotFound() {
                 asChild
                 className="group"
               >
-                <a href="https://wa.me/5541999999999?text=Olá!%20Não%20consegui%20encontrar%20uma%20página%20no%20site%20e%20preciso%20de%20ajuda">
+                <a href="https://wa.me/5541996534730?text=Olá!%20Não%20consegui%20encontrar%20uma%20página%20no%20site%20e%20preciso%20de%20ajuda">
                   <MessageCircle className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                   Falar no WhatsApp
                 </a>

@@ -127,7 +127,7 @@ export default function FAQ() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/5541999999999?text=Tenho%20dúvidas%20sobre%20as%20soluções%20de%20automação"
+              href="https://wa.me/5541996534730?text=Tenho%20dúvidas%20sobre%20as%20soluções%20de%20automação"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 rounded-xl bg-green-600 hover:bg-green-700 text-white font-semibold transition-all duration-300 hover:scale-105"

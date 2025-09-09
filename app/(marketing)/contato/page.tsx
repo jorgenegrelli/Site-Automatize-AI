@@ -23,15 +23,15 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Telefone',
-    value: '+55 (41) 99999-9999',
-    link: 'tel:+5541999999999',
+    value: '+55 (41) 99653-4730',
+    link: 'tel:+5541996534730',
     color: 'text-green-400'
   },
   {
     icon: MessageCircle,
     title: 'WhatsApp',
     value: 'Chat direto conosco',
-    link: getWhatsAppUrl('5541999999999', 'Olá! Gostaria de saber mais sobre as soluções de automação.'),
+    link: getWhatsAppUrl('5541996534730', 'Olá! Gostaria de saber mais sobre as soluções de automação.'),
     color: 'text-green-400'
   },
   {
@@ -145,13 +145,13 @@ export default function ContactPage() {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
             >
               <Button variant="gradient" size="xl" asChild className="shadow-glow-lg">
-                <a href={getWhatsAppUrl('5541999999999', 'Olá! Gostaria de agendar um diagnóstico gratuito.')}>
+                <a href={getWhatsAppUrl('5541996534730', 'Olá! Gostaria de agendar um diagnóstico gratuito.')}>
                   💬 WhatsApp Direto
                 </a>
               </Button>
               
               <Button variant="outline" size="xl" asChild className="border-white/20 hover:border-brand-primary">
-                <a href="tel:+5541999999999">
+                <a href="tel:+5541996534730">
                   📞 Ligar Agora
                 </a>
               </Button>
@@ -479,7 +479,7 @@ export default function ContactPage() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="gradient" size="xl" asChild className="shadow-glow-lg">
-                <a href={getWhatsAppUrl('5541999999999', 'Tenho algumas dúvidas sobre as soluções. Podem me ajudar?')}>
+                <a href={getWhatsAppUrl('5541996534730', 'Tenho algumas dúvidas sobre as soluções. Podem me ajudar?')}>
                   💬 Tirar dúvidas no WhatsApp
                 </a>
               </Button>

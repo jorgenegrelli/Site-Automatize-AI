@@ -8,7 +8,7 @@ import { getWhatsAppUrl } from '@/lib/utils'
 export default function CTAWhatsApp() {
   const [isExpanded, setIsExpanded] = useState(false)
 
-  const whatsappNumber = '5541999999999'
+  const whatsappNumber = '5541996534730'
   const defaultMessage = 'Olá! Gostaria de automatizar processos na minha empresa. Podem me ajudar?'
 
   const handleWhatsAppClick = () => {

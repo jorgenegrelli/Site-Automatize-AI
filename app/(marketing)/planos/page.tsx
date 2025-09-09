@@ -438,7 +438,7 @@ export default function PlansPage() {
               </Button>
               
               <Button variant="outline" size="xl" asChild className="border-white/20 hover:border-brand-primary hover:bg-brand-primary/10">
-                <Link href="https://wa.me/5541999999999?text=Quero%20saber%20mais%20sobre%20os%20planos">
+                <Link href="https://wa.me/5541996534730?text=Quero%20saber%20mais%20sobre%20os%20planos">
                   💬 Falar no WhatsApp
                 </Link>
               </Button>

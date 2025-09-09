@@ -86,7 +86,7 @@ export default function Hero() {
               asChild
               className="group shadow-glow-lg"
             >
-              <Link href="https://wa.me/5541999999999?text=Quero%20automatizar%20meu%20processo">
+              <Link href="https://wa.me/5541996534730?text=Quero%20automatizar%20meu%20processo">
                 Falar no WhatsApp
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>

@@ -213,11 +213,11 @@ export async function POST(request: NextRequest) {
 
               <div style="background: #e7f3ff; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0;">
                 <p style="margin: 0 0 15px 0; font-weight: bold; color: #1E3A8A;">🚀 Quer acelerar o processo?</p>
-                <a href="https://wa.me/5541999999999?text=Olá!%20Acabei%20de%20preencher%20o%20formulário%20no%20site" style="display: inline-block; background: #25D366; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; font-weight: bold;">💬 Falar agora no WhatsApp</a>
+                <a href="https://wa.me/5541996534730?text=Olá!%20Acabei%20de%20preencher%20o%20formulário%20no%20site" style="display: inline-block; background: #25D366; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; font-weight: bold;">💬 Falar agora no WhatsApp</a>
               </div>
 
               <p><strong>⏱️ Tempo de resposta:</strong> Em até 2 horas em horário comercial</p>
-              <p><strong>📞 Telefone:</strong> +55 (41) 99999-9999</p>
+              <p><strong>📞 Telefone:</strong> +55 (41) 99653-4730</p>
               <p><strong>📧 E-mail:</strong> contato@automatizeai.com.br</p>
               
               <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
