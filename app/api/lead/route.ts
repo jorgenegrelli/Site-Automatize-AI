@@ -19,24 +19,26 @@ const createTransporter = () => {
   })
 }
 
+// Service and budget name mappings
+const serviceNames = {
+  'rpa': 'RPA & Automação',
+  'chatbot': 'Chatbots & IA',
+  'integracao': 'Integrações & APIs',
+  'dashboard': 'Dashboards & Analytics',
+  'webapp': 'Web Apps',
+  'consultoria': 'Consultoria'
+}
+
+const budgetNames = {
+  'até-5k': 'Até R$ 5.000',
+  '5k-15k': 'R$ 5.000 - R$ 15.000',
+  '15k-30k': 'R$ 15.000 - R$ 30.000',
+  '30k+': 'Acima de R$ 30.000',
+  'a-combinar': 'A combinar'
+}
+
 // Email templates
 const generateEmailTemplate = (data: any) => {
-  const serviceNames = {
-    'rpa': 'RPA & Automação',
-    'chatbot': 'Chatbots & IA',
-    'integracao': 'Integrações & APIs',
-    'dashboard': 'Dashboards & Analytics',
-    'webapp': 'Web Apps',
-    'consultoria': 'Consultoria'
-  }
-
-  const budgetNames = {
-    'até-5k': 'Até R$ 5.000',
-    '5k-15k': 'R$ 5.000 - R$ 15.000',
-    '15k-30k': 'R$ 15.000 - R$ 30.000',
-    '30k+': 'Acima de R$ 30.000',
-    'a-combinar': 'A combinar'
-  }
 
   return `
     <!DOCTYPE html>
