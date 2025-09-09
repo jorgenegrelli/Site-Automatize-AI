@@ -73,11 +73,11 @@ const generateEmailTemplate = (data: any) => {
             </tr>
             <tr>
               <td style="padding: 8px 0; font-weight: bold;">Serviço:</td>
-              <td style="padding: 8px 0;"><span style="background: #6D28D9; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">${serviceNames[data.service] || data.service}</span></td>
+              <td style="padding: 8px 0;"><span style="background: #6D28D9; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">${serviceNames[data.service as keyof typeof serviceNames] || data.service}</span></td>
             </tr>
             <tr>
               <td style="padding: 8px 0; font-weight: bold;">Orçamento:</td>
-              <td style="padding: 8px 0;"><span style="background: #EC4899; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">${budgetNames[data.budget] || data.budget}</span></td>
+              <td style="padding: 8px 0;"><span style="background: #EC4899; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">${budgetNames[data.budget as keyof typeof budgetNames] || data.budget}</span></td>
             </tr>
           </table>
         </div>
@@ -204,8 +204,8 @@ export async function POST(request: NextRequest) {
               <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
                 <h3 style="color: #6D28D9; margin-top: 0;">📋 Resumo da sua solicitação:</h3>
                 <ul style="margin: 10px 0;">
-                  <li><strong>Serviço de interesse:</strong> ${serviceNames[validatedData.service] || validatedData.service}</li>
-                  <li><strong>Faixa de orçamento:</strong> ${budgetNames[validatedData.budget] || validatedData.budget}</li>
+                  <li><strong>Serviço de interesse:</strong> ${serviceNames[validatedData.service as keyof typeof serviceNames] || validatedData.service}</li>
+                  <li><strong>Faixa de orçamento:</strong> ${budgetNames[validatedData.budget as keyof typeof budgetNames] || validatedData.budget}</li>
                 </ul>
               </div>
 
