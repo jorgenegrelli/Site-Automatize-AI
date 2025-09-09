@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  :root {
+    --background: 220 26% 14%;
+    --foreground: 0 0% 98%;
+    --card: 220 26% 14%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 26% 14%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 263 70% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 215 32% 27%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 215 32% 27%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 215 32% 27%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 263 70% 50%;
+    --radius: 1rem;
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-brand-bg text-foreground font-sans antialiased;
+    background: linear-gradient(135deg, #0A0F1F 0%, #0B0F1A 100%);
+    min-height: 100vh;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .gradient-brand {
+    @apply bg-gradient-brand;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-brand bg-clip-text text-transparent;
+  }
+  
+  .btn-gradient {
+    @apply relative overflow-hidden bg-gradient-brand text-white font-semibold;
+    @apply before:absolute before:inset-0 before:bg-gradient-brand before:opacity-0 before:transition-opacity before:duration-300;
+    @apply hover:before:opacity-20;
+  }
+  
+  .card-glass {
+    @apply backdrop-blur-sm bg-white/5 border border-white/10;
+  }
+  
+  .glow-border {
+    @apply border border-transparent bg-gradient-brand bg-clip-border;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#0A0F1F, #0A0F1F), linear-gradient(90deg, #1E3A8A, #6D28D9, #EC4899, #F97316);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  .animate-gradient-x {
+    animation: gradient-x 15s ease infinite;
+    background-size: 200% 200%;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-brand rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
+}
+
+/* Selection */
+::selection {
+  @apply bg-brand-primary/30 text-white;
+}
+
+/* Focus styles */
+.focus-visible {
+  @apply outline-none ring-2 ring-brand-primary ring-offset-2 ring-offset-brand-bg;
+}
+
+/* Prose styles for blog */
+.prose {
+  @apply text-gray-300;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  @apply text-white;
+}
+
+.prose a {
+  @apply text-brand-accent-2 hover:text-brand-accent-end transition-colors;
+}
+
+.prose pre {
+  @apply bg-gray-900/50 border border-gray-800;
+}
+
+.prose code {
+  @apply text-brand-accent-2 bg-gray-900/30 px-1 py-0.5 rounded text-sm;
+}
+
+/* Loading states */
+.skeleton {
+  @apply animate-pulse bg-gray-800/50 rounded;
+}

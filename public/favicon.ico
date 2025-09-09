@@ -1,0 +1,13 @@
+# This is a placeholder for the favicon.ico file
+# In a real project, this would be a binary ICO file
+# For now, we'll create this as a text file as a placeholder
+
+# To add a real favicon:
+# 1. Create a favicon.ico file (16x16, 32x32, 48x48 pixels)
+# 2. Place it in the public folder
+# 3. Next.js will automatically serve it at /favicon.ico
+
+# You can generate favicons at:
+# - https://favicon.io/
+# - https://www.favicon-generator.org/
+# - https://realfavicongenerator.net/
