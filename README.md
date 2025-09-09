@@ -111,7 +111,7 @@ FROM_EMAIL="contato@automatizeai.com.br"
 CONTACT_EMAIL="contato@automatizeai.com.br"
 
 # WhatsApp
-WHATSAPP_NUMBER="5541999999999"
+WHATSAPP_NUMBER="5541996534730"
 
 # Site
 NEXT_PUBLIC_SITE_URL="http://localhost:3000"
